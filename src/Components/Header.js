@@ -5,7 +5,7 @@ const Header = () => {
     return (       
         <nav>
             <div className="container">
-                <h2 className="logo">SocialMedia</h2>
+                <h2 className="logo">NewaMedia</h2>
                 <div className="search-bar">
                     <UilSearch />
                     <input type="search" placeholder="Search for creates, inspirations and projects"/>
