@@ -1,8 +1,11 @@
 import React from 'react'
+import Messages from './Messages'
 
-const RightSideBar = ({ children }) => {
+const RightSideBar = () => {
     return (
-        <div className="right">{children}</div>
+        <div className="right">
+            <Messages/>
+        </div>
     )
 }
 
