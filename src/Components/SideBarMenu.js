@@ -4,7 +4,9 @@ import Pic1 from '../Assets/Images/profile-2.jpg';
 import Pic2 from '../Assets/Images/profile-3.jpg';
 import Pic3 from '../Assets/Images/profile-4.jpg';
 import Pic4 from '../Assets/Images/profile-5.jpg';
+
 const SideBarMenu = () => {
+
     return (
         // ---------- MENU ---------- 
         <div className="sidebar">
@@ -28,12 +30,12 @@ const SideBarMenu = () => {
                 </span>
                 <h3>Notification</h3>
                 {/* Notification popup Start */}
-                <div className="notications-popup">
+                <div className="notifications-popup">
                     <div className="popup-wrap">
                         <div className="profile-photo">
                             <img src={Pic1} alt="" />
                         </div>
-                        <div className="notication-body">
+                        <div className="notifications-body">
                             <b>Sarun Prajapati</b> accepted your friend request
                             <small className="text-mute">2 DAYS AGO</small></div>
                     </div>
