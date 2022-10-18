@@ -19,3 +19,10 @@
     --sticky-top-right: -18rem;
 
 }
+
+.menu-item {
+    svg
+    {
+       transform: scale(1.3);
+    }
+}

@@ -22,7 +22,7 @@ const PostFeed = () => {
                         <img src={profilepic1} alt="" />
                     </div>
                     <div className="ingo">
-                        <h3>Lana Rose</h3>
+                        <h3>Lana Rose <i class="uil uil-comments-alt"></i></h3>
                         <small>Dubai, 15 MINUTES AGO</small>
                     </div>                    
                 </div>

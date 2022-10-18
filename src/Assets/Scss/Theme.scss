@@ -120,10 +120,10 @@ main{
                             font-size: 0.7rem;
                             width: fit-content;
                             border-radius: 0.8rem;
-                            padding: 0.1rem 0.4rem;
+                            padding: 0.1rem 0.2rem;
                             position: absolute;
-                            top: -0.2rem;
-                            right: -0.3rem;
+                            top: -0.6rem;
+                            right: -0.6rem;
                         }                  
                     }
                     h3{
@@ -131,7 +131,8 @@ main{
                        font-size: 1rem; 
                        color: var(--color-dark);
                     }
-                    &.active{
+                    &.active,
+                    &:hover{
                         background: var(--color-light);
                         &::before{
                             content: "";
@@ -146,13 +147,15 @@ main{
                         }
                     }
                     &:first-child{
-                        &.active{
+                        &.active,
+                        &:hover{
                             border-top-left-radius: var(--card-border-radius);
                             overflow: hidden;
                         }
                     }
                     &:last-child{
-                        &.active{
+                        &.active,
+                        &:hover{
                             border-bottom-left-radius: var(--card-border-radius);
                             overflow: hidden;
                         }
@@ -307,6 +310,11 @@ main{
                         align-items: center;
                         font-size: 1.4rem;
                         margin: 0.6rem;
+                        .interaction-button{
+                            span{
+                                margin-right: 0.7rem;
+                            }
+                        }
                      }
                      .liked-by{
                         display: flex;
